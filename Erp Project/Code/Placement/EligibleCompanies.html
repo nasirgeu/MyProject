@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/fd8b614daf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../CSS/Navigation.css">
+    <link rel="stylesheet" href="../CSS/Fees.css">
+    <link rel="stylesheet" href="../CSS/Exam.css">
+    <script src="../js/HoverDetails.js"></script>
+    <link rel="stylesheet" href="../CSS/Academic.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navigation">
+        <div class="feeslogo"><img class="feeslogoimg" src="../Photo/logo.jpg" alt=""></div>
+        <div class="ExpendOption" onclick="myFunction()">
+            <i class="fa-solid fa-list"></i>
+            <span class="innerexpend">Expend Actions</span>
+        </div>
+        <div class="navright">
+            <div class="dashboard"><a href=""><img class="dashpng" src="../Photo/dash.png" alt=""></a></div>
+            <div class="Home"><a href="../Home/Home.html"><img class="homepng" src="../Photo/home.png" alt=""></a></div>
+
+
+            <span class="name" onclick="myFunction1()">
+                <span class="nameinner">Mohd Nasir
+                    <div class="selfimg">
+                        <img class="selfpic" src="../Photo/a.jpg" alt="">
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </span>
+            </span>
+        </div>
+        <input type="checkbox" onclick="toggle()" name="" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+    </nav>
+
+
+    <div class="hoverdetails" id="hoverdetail">
+
+        <div class="box">
+            <div class="box1">
+                <i class="fa-solid fa-building-columns"></i>
+                <span class="icon-write">Academic</span>
+
+                <div class="ExpandOption"><a href="../Academic/Attendece.html">
+                        <div class="padd"><i class="fa-solid fa-clipboard-user"></i>Attendence</div>
+                    </a></div>
+
+                <div class="ExpandOption"><a href="../Academic/Feedback.html">
+                        <div class="padd"><i class="fa-solid fa-comment"></i>Feedback</div>
+                    </a></div>
+
+                <div class="ExpandOption"><a href="../Academic/SemesterRegistration.html">
+                        <div class="padd"><i class="fa-solid fa-address-card"></i>Semester Resgistration</div>
+                    </a></div>
+
+                <div class="ExpandOption"><a href="../Academic/EnrollmentForm.html">
+                        <div class="padd"><i class="fa-brands fa-elementor"></i>Enrollment Form</div>
+                    </a></div>
+                <div class="ExpandOption"><a href="../Academic/ElectiveOption.html">
+                        <div class="padd"><i class="fa-solid fa-filter"></i>Elective Subject Option</div>
+                    </a></div>
+            </div>
+
+
+            <hr class="line">
+
+            <div class="box1">
+                <i class="fa-solid fa-bullhorn"></i>
+                <span class="icon-write">Circular</span>
+                <div class="ExpandOption"><a href="../Circular/Notice.html">
+                        <div class="padd"><i class="fa-solid fa-file-circle-check"></i>Circular/Notice</div>
+                    </a></div>
+                <div class="ExpandOption"><a href="../Circular/Notice.html">
+                        <div class="padd"><i class="fa-solid fa-circle-info"></i>Details</div>
+                    </a></div>
+            </div>
+            <hr class="line">
+        </div>
+
+        <div class="box">
+
+            <div class="box1">
+                <i class="fa-solid fa-house-user"></i>
+                <span class="icon-write">Home</span>
+                <div class="ExpandOption"><a href="">
+                        <div class="padd"><i class="fa-solid fa-house"></i>Home</div>
+                    </a></div>
+            </div>
+            <hr class="line">
+
+            <div class="box1">
+                <i class="fa-solid fa-book"></i>
+                <span class="icon-write">Exam</span>
+
+                <div class="ExpandOption"><a href="MidTermSessional.html">
+                        <div class="padd"><i class="fa-solid fa-file-lines"></i>Sessional/Mid/External</div>
+                    </a></div>
+                <div class="ExpandOption"><a href="Result.html">
+                        <div class="padd"><i class="fa-solid fa-square-poll-horizontal"></i>Result</div>
+                    </a></div>
+
+                <div class="ExpandOption"><a href="TransectionHistory.html">
+                        <div class="padd"><i class="fa-solid fa-history"></i>Transection History</div>
+                    </a></div>
+
+
+                <div class="ExpandOption"><a href="AdmitCard.html">
+                        <div class="padd"><i class="fa-solid fa-address-card"></i>Admit Card</div>
+                    </a></div>
+
+                <div class="ExpandOption"><a href="SubjectRevaluation.html">
+                        <div class="padd"><i class="fa-solid fa-square-check"></i>Subject Revaluation</div>
+                    </a></div>
+                <div class="ExpandOption"><a href="SchduleSubject.html">
+                        <div class="padd"><i class="fa-solid fa-calendar"></i>Schdule Subject</div>
+                    </a></div>
+
+            </div>
+            <hr class="line">
+
+        </div>
+
+        <div class="box">
+
+            <div class="box1">
+                <i class="fa-brands fa-accusoft"></i>
+                <span class="icon-write">Placement</span>
+
+                <div class="ExpandOption"><a href="EligibleCompanies.html">
+                        <div class="padd"><i class="fa-solid fa-building"></i>Elegible Companies</div>
+                    </a></div>
+
+                <div class="ExpandOption"><a href="VisitCompanies.html">
+                        <div class="padd"><i class="fa-solid fa-braille"></i>Visit Companies</div>
+                    </a></div>
+
+            </div>
+            <hr class="line">
+            <div class="box1">
+                <i class="fa-solid fa-money-check-dollar"></i>
+                <span class="icon-write">Fee</span>
+
+                <div class="ExpandOption"><a href="../Fees/FeeSubmission.html">
+                        <div class="padd"><i class="fa-solid fa-check"></i>Fee Submission</div>
+                    </a></div>
+                <div class="ExpandOption"><a href="../Fees/FeeReciept.html">
+                        <div class="padd"><i class="fa-solid fa-file"></i>Fee Reciept</div>
+                    </a></div>
+                <div class="ExpandOption"><a href="../Fees/FeeHistory.html">
+                        <div class="padd"><i class="fa-solid fa-clock-rotate-left"></i>Transection History</div>
+                    </a></div>
+                <div class="ExpandOption"><a href="#">
+                        <div class="padd"><i class="fa-solid fa-circle-question"></i>Fee Submission Details</div>
+                    </a></div>
+                <div class="ExpandOption"><a href="../Fees/FeesChallan.html">
+                        <div class="padd"><i class="fa-solid fa-cloud-arrow-down"></i>Challan</div>
+                    </a></div>
+            </div>
+            <hr class="line">
+        </div>
+    </div>
+
+    <div class="photohover" id="photodetails">
+        <div class="changepass">
+            <div class="padd"><i class="fa-solid fa-user"></i><a href="">Profile</a></div>
+        </div>
+        <div class="changepass">
+            <div class="padd"><i class="fa-solid fa-gear"></i><a href="">Change Password</a></div>
+        </div>
+        <div class="changepass">
+            <div class="padd"><i class="ac-icon fa fa-power-off"></i><a href="">Logout</a></div>
+        </div>
+    </div>
+
+    <div class="mobileExpendOption" id="hide">
+
+        <div class="MoDashboard">
+            <div class="FirstLine"><i class="menu-icon fa fa-user mobile"></i><a class="IconName" href="">Profile</a>
+                <!-- <i class="arrow fa fa-angle-down mobile"></i> -->
+            </div>
+        </div>
+        <hr class="line2">
+
+        <div class="MoDashboard">
+            <div class="FirstLine"><i class="menu-icon fa fa-gear mobile"></i><a class="IconName" href="">Change
+                    Password</a>
+                <!-- <i class="arrow fa fa-angle-down mobile"></i> -->
+            </div>
+        </div>
+
+        <hr class="line2">
+        <div class="MoDashboard">
+            <div class="FirstLine"><i class="menu-icon fa fa-tachometer"></i><a class="IconName" href="">Dashboard</a>
+                <!-- <i class="arrow fa fa-angle-down mobile"></i> -->
+            </div>
+        </div>
+
+        <hr class="line2">
+
+        <div onclick="show1()" class="MoDashboard">
+            <div class="FirstLine"><i class="menu-icon fa fa-graduation-cap"></i><span class="IconName"
+                    href="">Academic</span>
+                <i class="arrow fa fa-angle-down mobile"></i>
+            </div>
+        </div>
+        <hr class="line2">
+
+        <div class="mobdasinner" id="1">
+            <a href="../Academic/Attendece.html">
+                <div class="abc">
+                    <div class="abc1"><i class="fa-solid fa-clipboard-user"></i>Attendence</div>
+                </div>
+            </a>
+            <a href="../Academic/Feedback.html">
+                <div class="abc">
+                    <div class="abc1"><i class="fa-solid fa-comment"></i> Feedback</div>
+                </div>
+            </a>
+            <a href="../Academic/SemesterRegistration.html">
+                <div class="abc">
+                    <div class="abc1"><i class="fa-solid fa-address-card"></i>Semester Resgistration</div>
+                </div>
+            </a>
+            <a href="../Academic/EnrollmentForm.html">
+                <div class="abc">
+                    <div class="abc1"><i class="fa-brands fa-elementor"></i> Enrollment Form</div>
+                </div>
+            </a>
+            <a href="../Academic/ElectiveOption.html">
+                <div class="abc">
+                    <div class="abc1"><i class="fa-solid fa-filter"></i>Elective Subject Option</div>
+                </div>
+            </a>
+        </div>
+
+
+        <div onclick="show2()" class="MoDashboard">
+            <div class="FirstLine"><i class="fa-solid fa-book-open"></i><span class="IconName" href="">Exam</span>
+                <i class="arrow fa fa-angle-down mobile"></i>
+            </div>
+        </div>
+        <hr class="line2">
+
+        <div class="mobdasinner" id="2">
+            <a href="../Exam/MidTermSessional.html">
+                <div class="abc">
+                    <div class="abc1"><i class="fa-solid fa-file-lines"></i>Sessional/Mid/External</div>
+                </div>
+            </a>
+            <a href="../Exam/Result.html">
+                <div class="abc">
+                    <div class="abc1"><i class="fa-solid fa-square-poll-horizontal"></i> Result</div>
+                </div>
+            </a>
+            <a href="../Exam/TransectionHistory.html">
+                <div class="abc">
+                    <div class="abc1"><i class="fa-solid fa-history"></i>Transection History</div>
+                </div>
+            </a>
+            <a href="../Exam/AdmitCard.html">
+                <div class="abc">
+                    <div class="abc1"><i class="fa-solid fa-address-card"></i> Admit Card</div>
+                </div>
+            </a>
+            <a href="../Exam/SubjectRevaluation.html">
+                <div class="abc">
+                    <div class="abc1"><i class="fa-solid fa-square-check"></i>Subject Revaluation</div>
+                </div>
+            </a>
+            <a href="../Exam/SchduleSubject.html">
+                <div class="abc">
+                    <div class="abc1"><i class="fa-solid fa-calendar"></i>Schdule Subject</div>
+                </div>
+            </a>
+        </div>
+
+
+        <div onclick="show3()" class="MoDashboard">
+            <div class="FirstLine"><i class="fa-solid fa-money-check-dollar mobile"></i><span class="IconName"
+                    href="">Fee</span>
+                <i class="arrow fa fa-angle-down mobile"></i>
+            </div>
+        </div>
+        <hr class="line2">
+
+        <div class="mobdasinner" id="3">
+            <a href="../Fees/FeeSubmission.html">
+                <div class="abc">
+                    <div class="abc1"><i class="fa-solid fa-check"></i>Fee Submission</div>
+                </div>
+            </a>
+            <a href="../Fees/FeeReciept.html">
+                <div class="abc">
+                    <div class="abc1"><i class="fa-solid fa-file"></i> Fee Reciept</div>
+                </div>
+            </a>
+            <a href="../Fees/FeeHistory.html">
+                <div class="abc">
+                    <div class="abc1"><i class="fa-solid fa-history"></i>Transection History</div>
+                </div>
+            </a>
+            <a href="../Fees/FeesChallan.html">
+                <div class="abc">
+                    <div class="abc1"><i class="fa-solid fa-cloud-arrow-down"></i>Challan</div>
+                </div>
+            </a>
+        </div>
+
+
+        <div onclick="show4()" class="MoDashboard">
+            <div class="FirstLine"><i class="fa-solid fa-road-circle-check"></i><span class="IconName"
+                    href="">Placement</span>
+                <i class="arrow fa fa-angle-down mobile"></i>
+            </div>
+        </div>
+        <hr class="line2">
+
+        <div class="mobdasinner" id="4">
+            <a href="../Placement/EligibleCompanies.html">
+                <div class="abc">
+                    <div class="abc1"><i class="fa-solid fa-building"></i>Elegible Companies</div>
+                </div>
+            </a>
+            <a href="../Placement/VisitCompanies.html">
+                <div class="abc">
+                    <div class="abc1"><i class="fa-solid fa-building"></i>Visited Companies</div>
+                </div>
+            </a>
+        </div>
+
+
+        <div onclick="show5()" class="MoDashboard">
+            <div class="FirstLine"><i class="fa-solid fa-message"></i><span class="IconName"
+                    href="">Circular/Notice</span>
+                <i class="arrow fa fa-angle-down mobile"></i>
+            </div>
+        </div>
+        <hr class="line2">
+
+        <div class="mobdasinner" id="5">
+            <a href="../Circular/Notice.html">
+                <div class="abc">
+                    <div class="abc1"><i class="fa-solid fa-file-circle-check"></i>Circular/Notice</div>
+                </div>
+            </a>
+            <a href="../Circular/Notice.html">
+                <div class="abc">
+                    <div class="abc1"><i class="fa-solid fa-file-circle-check"></i>Details</div>
+                </div>
+            </a>
+        </div>
+
+        <div class="MoDashboard">
+            <div class="FirstLine"><i class="ac-icon fa fa-power-off mobile"></i><a class="IconName" href="">Logout</a>
+                <!-- <i class="arrow fa fa-angle-down mobile"></i> -->
+            </div>
+        </div>
+        <hr class="line2">
+    </div>
+
+
+    <!-- Exam Section -->
+
+    <div class="Feeleftnav">
+        <div class="navshow1" id="navshowbtn">
+            <input type="checkbox" onclick="toggle1()" name="" id="click1">
+            <label for="click1" class="menu-btn1 active" id="menu-btn1">
+                <i class="fa-sharp fa-solid fa-chevron-down" id="down"></i>
+            </label>
+        </div>
+        <div class="Fee-Navigation ele" id="feenavshow">
+            <a href="EligibleCompanies.html">
+                <div class="Fee Fee1">
+                    <div class="FeeInner">
+                        Elegible Companies
+                    </div>
+                </div>
+            </a>
+            <a href="VisitCompanies.html">
+                <div class="Fee Fee1">
+                    <div class="FeeInner">
+                        Visited Companies
+                    </div>
+                </div>
+            </a>
+        </div>
+
+
+
+        <div class="Result Schdule res">
+
+            <div class="resume">
+                <div class="MidTermHeading"><span>Upload/Update Resume</span></div>
+                <div class="uploadoption">
+                    <input type="file" name="" id="">
+                    <input type="button" class="abtn abtn1" value="Upload Resume">
+                </div>
+            </div>
+
+            <div class="ResultTable">
+                <div class="MidTermHeading"><span>Eligible Compnies</span></div>
+                <table cellspacing="0">
+                    <tr>
+                        <th id="ResultSN"></th>
+                        <th>Company Name</th>
+                        <th>Date From</th>
+                        <th>Date To</th>
+                        <th>Last Date Apply</th>
+                        <th>Criteria</th>
+                        <th>Remark</th>
+                    </tr>
+
+                    <tr>
+                        <th id="ResultSN"></th>
+                        <th><input type="text"></th>
+                        <th><input type="text"></th>
+                        <th><input type="text"></th>
+                        <th><input type="text"></th>
+                        <th><input type="text"></th>
+                        <th><input type="text"></th>
+                    </tr>
+
+                </table>
+            </div>
+
+            <div class="ResultTable re1">
+                <div class="MidTermHeading"><span>Applied Compnies</span></div>
+                <table cellspacing="0">
+                    <tr>
+                        <th id="ResultSN"></th>
+                        <th>Company Name</th>
+                        <th>Date From</th>
+                        <th>Date To</th>
+                        <th>Last Date Apply</th>
+                        <th>Criteria</th>
+                        <th>Remark</th>
+                    </tr>
+
+                    <tr>
+                        <th id="ResultSN"></th>
+                        <th><input type="text"></th>
+                        <th><input type="text"></th>
+                        <th><input type="text"></th>
+                        <th><input type="text"></th>
+                        <th><input type="text"></th>
+                        <th><input type="text"></th>
+                    </tr>
+
+                </table>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

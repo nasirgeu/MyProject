@@ -1,0 +1,517 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.MidTerm {
+    width: 77%;
+    float: right;
+    border: 1px solid gray;
+    margin-right: 13px;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.MidTermHeading,
+.Applied {
+    background-color: rgb(194, 218, 237);
+    margin: -0.3px;
+    margin-right: -0.5px;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
+
+.Applied {
+    width: 1750px;
+    text-align: left;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.Apply {
+    width: 95%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.applybtn {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.abtn {
+    padding: 6px;
+    color: white;
+    font-size: 12px;
+    background-color: rgb(51, 173, 51);
+    border: 1px solid rgb(51, 173, 51);
+    border-radius: 3px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.abtn:hover {
+    cursor: pointer;
+    background-color: rgb(112, 189, 112);
+}
+
+.Apply select {
+    margin-left: 30px;
+    width: 150px;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+
+.MidTermHeading span,
+.Applied span {
+    margin: 5px;
+    color: #2e6e9e;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.MidTermInner {
+    padding: 5px;
+    background-color: #f5f5f5;
+    margin: auto;
+    width: 95%;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 1.2px solid gray;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.MidNameBox {
+    margin-top: 15px;
+    width: 32%;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.MidNameBox4 {
+    margin-bottom: 10px;
+}
+
+.MidTermName {
+    font-size: 14px;
+    text-align: left;
+    width: 49%;
+    margin-left: 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.MidTermName select {
+    width: 120px;
+    height: 25px;
+    border-radius: 3px;
+}
+
+/* Result Section */
+
+.Result {
+    width: 77%;
+    float: right;
+    border: 1px solid gray;
+    margin-right: 13px;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.ResultTable {
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 25px;
+    overflow-x: auto;
+    color: #2e6e9e;
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+}
+
+.Result table {
+    margin: auto;
+}
+
+.ResultTable table tr th {
+    background-color: #f5f5f5;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid gray;
+}
+
+.ResultTable table tr td {
+    border: 1px solid gray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.ResultTable table tr td a {
+    color: #2e6e9e;
+}
+
+.ResultTable table tr td a:hover {
+    color: #1b83d3;
+    text-decoration: underline;
+}
+
+#ResultSN {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.Revalution.active1 {
+    display: block;
+}
+
+.Schdule .ResultTable {
+    min-height: 400px;
+}
+
+.ResultTable table tr th input {
+    height: 30px;
+    outline: none;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+    text-align: left;
+}
+
+.admitcard {
+    display: none;
+}
+
+.admitcard.active {
+    display: block;
+}
+
+.choice {
+    font-size: 20px;
+    float: right;
+    width: 77%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.choice span {
+    color: #2e6e9e;
+    padding: 5px;
+}
+
+.choice.active {
+    display: none;
+}
+
+
+.backpapers {
+    width: 77%;
+    border-radius: 3px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.perdetails {
+    background-color: #f5f5f5;
+    border: 1px solid gray;
+    left: 3px;
+    border-radius: 3px;
+    top: 3px;
+    width: 45%;
+    margin: 20px;
+    padding: 15px;
+    display: inline-block;
+}
+
+.backdetails {
+    margin-top: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid gray;
+    border-radius: 3px;
+    width: 49%;
+    float: right;
+    margin-right: 10px;
+    min-height: 160px;
+}
+
+.backper {
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    font-weight: 570;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.name1 {
+    display: inline-block;
+    width: 40%;
+}
+
+.value1 {
+    width: 55%;
+    display: inline-block;
+}
+
+.backimg {
+    text-align: center;
+}
+
+.MyImg {
+    border-radius: 140%;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.option {
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: #40aac1;
+    margin: 1px;
+}
+
+.option span {
+    color: #278ddc;
+    cursor: pointer;
+    background-color: #e1e7e4;
+    ;
+    padding: 5px;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.sublist {
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 20px;
+    display: none;
+}
+
+.sublistline {
+    margin-top: 20px;
+}
+
+.elegible {
+    font-size: 15px;
+    margin-top: 35px;
+    margin-left: 20px;
+    display: none;
+}
+
+.AppliedBack {
+    display: none;
+}
+
+.elegible .back {
+    margin-left: 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.sublist.active {
+    display: block;
+}
+
+.ins {
+    margin-left: 10px;
+}
+
+.FeeInner a {
+    color: white;
+}
+
+.elegible select {
+    font-size: 12px;
+    width: 50%;
+    margin-left: 10px;
+    height: 24px;
+    border-radius: 4px;
+}
+
+.eleline {
+    width: 92%;
+    margin-left: 20px;
+}
+
+.amountpay {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.amountpay span {
+    color: red;
+    width: 45%;
+    display: inline-block;
+}
+
+.amountpay .amount {
+    color: black;
+    text-align: right;
+}
+
+.applybtn .bbtn {
+    text-align: center;
+}
+
+.applybtn {
+    margin-top: 40px;
+}
+
+.disclamer {
+    margin: 20px;
+    font-size: 13px;
+    color: red;
+}
+
+.ins a {
+    color: #278ddc;
+}
+
+.ins a:hover {
+    text-decoration: underline;
+}
+
+.option span:hover {
+    background-color: white;
+}
+
+.elegible.active {
+    display: block;
+}
+
+.AppliedBack.active1 {
+    display: block;
+}
+
+.ele {
+    height: 1150px;
+}
+
+.res {
+    padding: 10px;
+    border: 0px;
+}
+
+.res .ResultTable .MidTermHeading {
+    text-align: left;
+    width: 1748px;
+}
+
+.res .ResultTable {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 0px;
+}
+
+.re1 {
+    margin-top: 60px;
+}
+
+.resume {
+    margin: 10px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.uploadoption {
+    background-color: #f5f5f5;
+    ;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+@media (max-width:1000px) {
+
+    .MidTerm,
+    .Result,
+    .choice,
+    .backpapers {
+        width: 97%;
+        margin: auto;
+        margin-top: 15px;
+        margin-right: 7px;
+        margin-bottom: 10px;
+    }
+
+    .ele {
+        height: auto;
+    }
+
+    .backdetails,
+    .perdetails {
+        width: 80%;
+    }
+
+    .backpapers {
+        text-align: center;
+    }
+
+    .name1,
+    .value1 {
+        text-align: left;
+    }
+}
+
+.visit {
+    min-height: 400px;
+    border: 0.5px solid rgb(206, 195, 195);
+    border-radius: 3px;
+}
+
+#app1 {
+    width: 1143px;
+}
+
+#app2 {
+    width: 932px;
+}
+
+.indexterm {
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (max-width:700px) {
+    .MidNameBox {
+        width: 95%;
+        margin: auto;
+    }
+
+    .backdetails,
+    .perdetails {
+        width: 90%;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:700px) {
+    .abtn1 {
+        margin-top: 20px;
+        width: 100%;
+    }
+}

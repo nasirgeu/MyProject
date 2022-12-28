@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Fee-Navigation {
+    display: inline-block;
+    width: 21%;
+    height: 1000px;
+    background-color: rgb(48, 36, 41);
+}
+
+
+.Fee:Hover {
+    background-color: rgb(69, 53, 57);
+    cursor: pointer;
+    border-radius: 1px;
+}
+
+.FeeInner {
+
+    padding: 7px;
+    /* background-color: green; */
+    padding: 8px;
+    font-size: 13px;
+    color: white;
+    margin-left: 30px;
+}
+
+.fa-file-circle-check.left {
+    color: rgb(45, 194, 43);
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+
+.feesbox {
+    height: 940px;
+    width: 77%;
+    margin-bottom: 30px;
+    padding: 3px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: 1px solid rgb(171, 147, 147);
+    border-radius: 5px;
+
+}
+
+.AcademicFeeDetail {
+    width: 965px;
+    background-color: rgb(118, 204, 231);
+    padding: 10px;
+    border-radius: 1px;
+}
+
+.AcademicFeeDetail span {
+    color: white;
+    font-size: 18px;
+    padding: 3px;
+}
+
+.feesbox.active {
+    display: block;
+}
+
+.line3 {
+    width: 100%;
+    display: inline-block;
+}
+
+.term {
+    width: 50%;
+    font-weight: 549;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 3px;
+    font-size: 13px;
+    color: red;
+}
+
+.feedetails {
+    width: 50%;
+    margin-left: 10px;
+    overflow-x: auto;
+    margin-top: 20px;
+    border: 1px solid rgb(185, 174, 174);
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.feesright {
+    float: right;
+    width: 45%;
+    margin-right: 20px;
+    height: 700px;
+    margin-top: -150px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    text-align: center;
+    width: 120px;
+    height: 35px;
+    background-color: rgb(135, 202, 135);
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 120px;
+    margin-bottom: 15px;
+}
+
+.studetails {
+    width: 95%;
+    height: fit-content;
+    margin: 15px;
+    border: 1px solid rgb(143, 127, 127);
+    border-radius: 2px;
+}
+
+.student {
+    padding: 10px;
+    color: white;
+    margin-left: -0.5px;
+    margin-top: -0.5px;
+    border-bottom: 0.1px solid rgb(143, 127, 127);
+    border-top: 1px solid rgb(143, 127, 127);
+    background-color: rgb(118, 204, 231);
+}
+
+.box11 {
+    color: rgb(74, 154, 189);
+    width: 49%;
+    padding: 5px;
+    display: inline-block;
+}
+
+.box12 {
+    color: black;
+    width: 49%;
+    padding: 5px;
+    display: inline-block;
+}
+
+.box13 {
+    text-align: right;
+}
+
+.tempbox {
+    padding: 10px;
+    color: white;
+}
+
+.redbox {
+    color: red;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.line4 {
+    border: 2px solid rgb(175, 166, 166);
+    width: 98%;
+    border-radius: 3px;
+    margin: auto;
+}
+
+.box15 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.feesbmission table tr input {
+    text-align: left;
+}
+
+.box12input {
+    width: 70%;
+}
+
+::placeholder {
+    text-align: right;
+}
+
+.boxt {
+    margin-left: 10px;
+    background-color: red;
+    display: inline-block;
+}
+
+.view {
+    color: rgb(74, 154, 189);
+}
+
+.view:hover {
+    text-decoration: underline;
+}
+
+.feedetails table tr th {
+    color: rgb(242, 237, 237);
+    font-weight: 400;
+    background-color: rgb(118, 204, 231);
+    border: 1px solid gainsboro;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 14px;
+}
+
+.feedetails table td.sno {
+    text-align: center;
+}
+
+table {
+    white-space: nowrap;
+}
+
+.feedetails table td.amount {
+    text-align: right;
+}
+
+.feedetails table td {
+    border: 1px solid gainsboro;
+    padding: 5px;
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+th.feehead {
+    display: inline-block;
+    width: 180px;
+    height: 65px;
+    line-height: 65px;
+}
+
+.feetype select {
+    border: 1 px solid rgb(118, 204, 231);
+    height: 30px;
+    width: 150px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.feetype {
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+.box111 {
+    width: 75%;
+}
+
+.box122 {
+    width: 18%;
+}
+
+.feehide .fa-caret-down {
+    position: relative;
+    top: 0px;
+    left: 160px;
+}
+
+.feeslogo {
+    display: inline-block;
+    height: 60px;
+    width: 21%;
+}
+
+.feeslogoimg {
+    height: 60px;
+    width: 100%;
+}
+.indexterm a{
+    color: red;
+}
+@media (max-width: 855px) {
+    .Fee-Navigation {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .Fee-Navigation {
+        width: 100%;
+        height: auto;
+    }
+
+    .feeslogo {
+        width: 201px;
+    }
+
+    .feesright {
+        margin-top: -180px;
+    }
+
+    .feesbox {
+        width: 97%;
+        margin-right: 15px;
+    }
+}
+
+
+@media (max-width: 770px) {
+
+    .term,
+    .feedetails {
+        width: 92%;
+        margin-left: 20px;
+    }
+
+    .feesbox {
+        height: 1490px;
+        margin-right: 8px;
+    }
+
+    .student {
+        width: 100.15%;
+    }
+
+    .feesright {
+        width: 97%;
+        margin-right: 12px;
+        margin-top: 4px;
+    }
+}
+
+@media (max-width: 500px) {
+    .feesbox {
+        height: 1400px;
+    }
+
+    * {
+        font-size: 12px;
+    }
+
+
+    .view {
+        margin-left: 50px;
+    }
+}
+
+/* .Feeleftnav {
+    width: 100%;
+    border: 2px solid black;
+    z-index: 1;
+} */
+
+
+
+/* FeesReciept */
+
+.feesreciept {
+    width: 77%;
+    border: 1px solid rgb(171, 147, 147);
+    margin-top: 30px;
+    margin-right: 12px;
+    border-radius: 3px;
+    float: right;
+    overflow-x: auto;
+}
+
+.FeeSubmissionDetails {
+    margin: -0.5px;
+    width: 953.5px;
+    background-color: rgb(118, 204, 231);
+    padding: 10px;
+    border-radius: 1px;
+}
+
+.FeeTransectionHistory {
+    margin: -0.5px;
+    width: 1592px;
+    background-color: rgb(118, 204, 231);
+    padding: 10px;
+    border-radius: 1px;
+}
+
+.FeeSubmissionDetails span,
+.FeeTransectionHistory span {
+    color: white;
+    font-size: 18px;
+    padding: 3px;
+}
+
+.feesbmission table {
+    margin: -1px;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+}
+
+
+
+.history {
+    overflow: auto;
+    display: block;
+}
+
+.feesbmission table tr th .padd {
+    margin: 15px;
+}
+
+.feesbmission table tr td {
+    text-align: center;
+    border: 1px solid gainsboro;
+    padding: 4px;
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+.remarks {
+    min-width: 350px;
+}
+
+.search {
+    text-align: left;
+    margin: 5px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    border: 1.5px solid rgb(15, 111, 139);
+}
+
+.searchhistory,
+.searchhistory1 {
+    text-align: left;
+    margin: 5px;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid rgb(56, 84, 92);
+}
+
+.searchhistory1 {
+    width: 270px !important;
+}
+
+
+.padding {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.headerborder tr th {
+    border: 1px solid gainsboro;
+}
+
+
+@media (max-width:1000px) {
+    .feesreciept {
+        width: 97%;
+        margin: auto;
+        margin-top: 15px;
+        margin-right: 7px;
+        margin-bottom: 10px;
+    }
+}

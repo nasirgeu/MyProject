@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Attendence {
+    width: 77%;
+    float: right;
+    border: 1px solid gray;
+    margin-right: 13px;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.Attendence .ResultTable table {
+    text-align: left;
+}
+
+.Attendence .ResultTable table tr td {
+    color: black;
+    padding: 7px;
+}
+
+.Attendence .ResultTable table tr th {
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.Attendence .ResultTable table tr th input {
+    width: 95%;
+    text-align: left;
+    display: inline-block;
+}
+
+.Attendence .term {
+    font-size: 16px;
+    font-weight: 545;
+}
+
+.term span {
+    color: green;
+    font-weight: 550;
+}
+
+.subject {
+    min-width: 400px;
+}
+
+.subjectcode {
+    min-width: 160px;
+}
+
+.totallecture {
+    min-width: 130px;
+}
+
+.lefttext {
+    text-align: center;
+}
+
+.lect {
+    text-align: right;
+    padding-right: 2px;
+}
+
+.app {
+    width: 1175px;
+}
+
+.applybtn {
+    float: right;
+    margin-right: 10px;
+}
+
+.redbtn {
+    background-color: red;
+    min-width: 160px;
+}
+
+.redbtn:hover {
+    background-color: rgb(245, 97, 97);
+
+}
+
+
+.TimeTable .ResultTable table tr th {
+    padding: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.TimeTable .ResultTable table tr td {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#sn {
+    padding: 0px;
+    text-align: center;
+}
+
+.TimeTable .ResultTable table tr td span {
+    color: red;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.lunch {
+    text-align: center;
+}
+
+.app1 {
+    width: 1887px;
+}
+
+
+.Assignment .term a {
+    color: blue;
+}
+
+.Assignment .term a:hover {
+    text-decoration: underline;
+    color: rgb(86, 28, 28);
+}
+
+.Assign {
+    width: 1765px;
+    text-align: left;
+    overflow-x: auto;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+.Attendence.active,
+.TimeTable.active1,
+.Assignment.active1 {
+    display: block;
+}
+
+.SemesterRegistration {
+    width: 77%;
+    margin-top: 20px;
+    margin-right: 12px;
+    min-height: 120px;
+    border-radius: 5px;
+    float: right;
+}
+
+
+.PersonalInformation {
+    width: 100%;
+    border: 1px solid gray;
+    overflow-x: scroll;
+}
+
+.PersonalInformation .MidTermHeading {
+    width: 972px;
+}
+
+.information {
+    width: 1370px;
+    background-color: rgb(189, 223, 250);
+    margin: auto;
+    border-radius: 4px;
+    margin: 20px;
+}
+
+.AcaImg {
+    width: 166px;
+    height: 175px;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 1px;
+}
+
+.innerimg {
+    width: 160px;
+    height: 168px;
+    margin: 2px;
+    border-radius: 3px;
+}
+
+.detailsbox {
+    width: 77%;
+    margin-right: 80px;
+    float: right;
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin-top: 40px;
+    background-color: white;
+    padding: 10px;
+}
+
+.detail1 {
+    width: 330px;
+    border-right: 1px solid gray;
+    margin-left: 0.1px;
+    height: 100px;
+    display: inline-block;
+}
+
+.detail2 {
+    border-right: 0px;
+    width: 360px;
+}
+
+.stuname {
+    display: inline-block;
+    padding: 4px;
+    font-weight: 570;
+}
+
+.detaline {
+    margin-top: 10px;
+}
+
+.hello {
+    float: right;
+}
+
+.college {
+    width: 80%;
+    float: left;
+    margin: 0px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.CollegeInfo {
+    margin-top: 20px;
+}
+
+.PersonalInformation .MidTermHeading {
+    width: 1410px;
+}
+
+.AddressInformation {
+    border: 1px solid gray;
+    overflow-x: scroll;
+    margin-top: 30px;
+    min-height: 100px;
+}
+
+.adddetails {
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin: 20px;
+}
+
+.addr {
+    padding: 10px;
+    display: inline-block;
+    font-weight: 550;
+}
+
+.feedback1.active {
+    display: block;
+}
+
+.elective .ResultTable table tr th {
+    min-width: 10px;
+}
+
+.innertable {
+    margin-top: 20px;
+    width: 94%;
+    min-height: 300px;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    overflow-x: scroll;
+}
+
+.innertable table {
+    margin: 0px;
+}
+
+.innertable table tr th {
+    background-color: rgb(194, 218, 237);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-width: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid gray;
+}
+
+.innertable table tr td {
+    padding: 5px;
+    border: 1px solid gray;
+
+}
+
+#subjectname {
+    padding-right: 150px;
+}
+
+.sn1 {
+    text-align: center;
+    padding: 0px;
+    max-width: 10px;
+}
+
+.innertable table tr th .searchhistory2 {
+    width: 515px;
+}
+
+.appbtn1 {
+    margin: auto;
+    float: left;
+    margin-left: 40px;
+}
+
+.EnrollmentForm {
+    width: 77%;
+    float: right;
+    margin-right: 10px;
+    border: 1px solid gray;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.term1 {
+    width: 60%;
+}
+
+.optionch {
+    text-align: left;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.optionch span {
+    margin: 3px;
+    display: inline-block;
+    background-color: rgb(194, 218, 237);
+    border: 1px solid rgb(194, 218, 237);
+    border-radius: 3px;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    color: rgb(252, 74, 9);
+}
+
+.optionch span:hover {
+    background-color: white;
+}
+
+.StudentInfo {
+    padding: 10px;
+    width: 97%;
+    border-radius: 4px;
+    margin: 20px;
+}
+
+.firstname {
+    padding: 7px;
+    width: 20%;
+    font-weight: 550;
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.StudentInfo span input {
+    width: 20%;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 2px;
+}
+
+.from-menu-bar {
+    border: 0px;
+}
+
+.from-menu-bar .term {
+    margin: 0px;
+    font-size: 15px;
+}
+
+@media (max-width:1000px) {
+
+    .Attendence,
+    .TimeTable,
+    .EnrollmentForm,
+    .SemesterRegistration,
+    .feedback1 {
+        width: 97%;
+        margin: auto;
+        margin-top: 15px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+
+    .StudentInfo,
+    .StudentInfo span input,
+    .firstname {
+        width: 97%;
+        text-align: left;
+    }
+}

@@ -1,0 +1,532 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    box-sizing: border-box;
+}
+
+.navigation {
+    height: 60px;
+    background-color: rgb(107, 198, 212);
+}
+
+.logo {
+    display: inline-block;
+    height: 60px;
+    width: 201px;
+    background-color: yellow;
+}
+
+.logoimg {
+    height: 60px;
+}
+
+.navright {
+    float: right;
+    height: 45px;
+    width: 350px;
+}
+
+.dashboard {
+    height: 66px;
+    margin-right: 5px;
+    padding: 14px;
+    margin-top: -6px;
+    display: inline-block;
+}
+
+.dashboard:hover,
+.Home:hover {
+    background-color: rgb(159, 222, 231);
+    cursor: pointer;
+}
+
+.Home {
+    height: 66px;
+    position: absolute;
+    padding: 14px;
+    margin-left: -10px;
+    margin-top: -6px;
+    display: inline-block;
+}
+
+.name:hover {
+    background-color: rgb(159, 222, 231);
+    cursor: pointer;
+}
+
+.fa-computer {
+    color: rgb(143, 115, 115);
+    font-size: 30px;
+    margin-top: 7px;
+}
+
+
+/* .fa-angle-down {
+    font-size: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+} */
+
+.name {
+    display: inline-block;
+    margin-left: 72px;
+    position: absolute;
+    border-left: 1px solid rgb(206, 224, 227);
+    border-right: 1px solid rgb(206, 224, 227);
+    padding: 5px;
+    height: 60px;
+}
+
+.nameinner {
+    line-height: 30px;
+    margin-left: 5px;
+    padding: 3px;
+    color: white;
+    position: relative;
+    top: 10px;
+}
+
+.selfimg {
+    position: relative;
+    top: -15px;
+    margin-left: 7px;
+    float: right;
+    margin-right: 6px;
+    height: 60px;
+}
+
+.selfpic {
+    border: 4px solid white;
+    border-radius: 50%;
+    float: left;
+    width: 36px;
+    margin-top: 12px;
+    height: 35px;
+    margin-left: 10px;
+}
+
+.fa-caret-down {
+    color: white;
+    position: relative;
+    top: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.selfimg:hover {
+    background-color: rgb(159, 222, 231);
+    cursor: pointer;
+
+
+}
+
+.ExpendOption {
+    display: inline-block;
+    margin-left: 5px;
+    position: absolute;
+    width: 200px;
+    border-left: 1px solid rgb(206, 224, 227);
+    border-right: 1px solid rgb(206, 224, 227);
+    padding: 5px;
+    height: 60px;
+}
+
+.fa-list {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+.innerexpend {
+    color: white;
+    font-size: 18px;
+    line-height: 47px;
+    margin-left: 5px;
+}
+
+.ExpendOption:hover {
+    background-color: rgb(159, 222, 231);
+    cursor: pointer;
+}
+
+.hoverdetails {
+    position: absolute;
+    display: none;
+}
+
+.hoverdetails.active {
+    z-index: 1;
+    visibility: visible;
+    padding-left: 10px;
+    display: flex;
+    width: 70%;
+    position: absolute;
+    left: 270px;
+    justify-content: center;
+    display: inline-block;
+    border: 1px solid rgb(234, 208, 208);
+    border-radius: 3px;
+    background-color: white;
+}
+
+.box {
+    margin-left: 3px;
+    width: 32%;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.box1 {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.ExpandOption:hover {
+    background-color: rgb(249, 246, 246);
+}
+
+.changepass {
+    margin-top: 5px;
+    padding: 2px;
+}
+
+.changepass:hover {
+    background-color: rgb(249, 246, 246);
+    cursor: pointer;
+}
+
+
+.fa-gear,
+.fa-user,
+.fa-power-off {
+    color: #999;
+    margin-right: 10px;
+    padding: 2px;
+    font-size: 14px;
+}
+
+.photohover {
+    display: none;
+}
+
+.photohover.active {
+    background-color: white;
+    border-radius: 2px;
+    padding: 6px;
+    width: 21.1%;
+    position: absolute;
+    right: 0px;
+    margin-right: 6px;
+    border: 1px solid rgb(234, 208, 208);
+    display: inline-block;
+}
+
+
+.fa-building-columns,
+.fa-money-check-dollar,
+.fa-bullhorn,
+.fa-book,
+.fa-accusoft,
+.fa-house-user {
+    font-size: 29px;
+    color: #428bca;
+    margin-bottom: 10px;
+}
+
+.icon-write {
+    font-size: 29px;
+    padding: 3px;
+    color: #428bca;
+    margin-left: 5px;
+    font-weight: 530;
+}
+
+a {
+    color: #999;
+    text-decoration: none;
+}
+
+.ExpandOption {
+    font-weight: normal;
+    font-size: 18px;
+    margin-left: -5px;
+    margin-top: 3px;
+}
+
+.padd {
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.menu-btn {
+    display: none;
+    cursor: pointer;
+    height: 50px;
+    margin-top: 5px;
+    /* background-color: yellow; */
+    color: #fff;
+    border-radius: 1px;
+    margin-right: 10px;
+    padding: 15px;
+    position: absolute;
+    right: 0;
+}
+
+.fa-bars {
+    font-size: 30px;
+    color: purple;
+    float: right;
+    margin-top: -4px;
+}
+
+.homepng {
+    width: 55px;
+    margin-top: -5px;
+    border-radius: 70%;
+    border: 4px solid rgb(107, 198, 212);
+}
+
+.dashpng {
+    width: 50px;
+    margin-top: -3px;
+    border-radius: 10%;
+}
+
+
+.fa-clipboard-user,
+.fa-comment,
+.fa-address-card,
+.fa-elementor,
+.fa-filter,
+.fa-file-circle-check,
+.fa-circle-info,
+.fa-house,
+.fa-file-lines,
+.fa-square-poll-horizontal,
+.fa-history,
+.fa-address-card,
+.fa-calendar,
+.fa-square-check,
+.fa-building,
+.fa-braille,
+.fa-check,
+.fa-circle-question,
+.fa-clock-rotate-left,
+.fa-file,
+.fa-cloud-arrow-down {
+    font-size: 17px;
+    color: #999;
+    margin-right: 10px;
+}
+
+.line {
+    width: 77%;
+}
+
+.line2 {
+    position: relative;
+    top: 4px;
+}
+
+.mobileExpendOption {
+    z-index: 1;
+    transition: 100s;
+    display: none;
+    width: 100%;
+}
+
+.MoDashboard {
+    padding: 3px;
+    background-color: #f9efef;
+    margin-bottom: -6px;
+    width: 100%;
+}
+
+.MoDashboard:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.FirstLine {
+    padding: 3px;
+    margin: 3px;
+    padding-left: 10px;
+}
+
+.IconName {
+    margin-top: 2px;
+    font-weight: 500;
+    color: #585858;
+    position: absolute;
+    font-size: 20px;
+}
+
+.fa-angle-down.mobile {
+    float: right;
+    color: #2B7DBC;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.fa-tachometer,
+.fa-graduation-cap,
+.fa-book-open,
+.fa-money-check-dollar.mobile,
+.fa-road-circle-check,
+.fa-message,
+.fa-user.mobile,
+.fa-gear.mobile,
+.fa-power-off.mobile {
+    color: #2B7DBC;
+    margin-right: 10px;
+    padding: 2px;
+    font-size: 20px;
+}
+
+.fa-line-chart {
+    color: rgb(26, 79, 132);
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+
+.mobdasinner {
+    background-color: white;
+    display: none;
+}
+
+.mobdasinner.active {
+    display: block;
+}
+
+.abc {
+    background-color: rgb(246, 241, 241);
+    border-bottom: 0.5px dotted rgb(193, 153, 153);
+    border-left: 0.5px dotted rgb(237, 204, 204);
+    border-right: 0.5px dotted rgb(237, 204, 204);
+    color: #2B7DBC;
+    margin-top: 2px;
+    padding: 5px;
+    margin-top: -0.1px;
+}
+
+.abc:hover {
+    background-color: white;
+}
+
+.abc1 {
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+#click,
+#click1 {
+    display: none;
+}
+
+ul {
+    background-color: red;
+    margin-top: 100px;
+    display: none;
+}
+
+.navshow:hover {
+    background-color: white;
+    color: black;
+}
+#down{
+    font-size: 30px;
+    margin-left: 10px;
+}
+#menu-btn1 {
+    display: block;
+    float: left;
+    margin: 1px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#click1:checked~.menu-btn1 i:before {
+    content: "\f00d";
+    color: white;
+    font-size: 20px;
+}
+.navshow1{
+    display: none;
+}
+
+.navshow1.active1 {
+    float: right;
+    margin-right: 10px;
+    position: absolute;
+    right: 0px;
+}
+.feeslogo {
+    display: inline-block;
+    height: 60px;
+    width: 21%;
+}
+
+.feeslogoimg {
+    height: 60px;
+    width: 100%;
+}
+
+
+.Fee-Navigation.active {
+    display: block;
+}
+
+@media (max-width:1000px) {
+    .hoverdetails.active {
+        left: 200px;
+    }
+    .feeslogo {
+        width: 201px;
+    }
+
+
+}
+
+@media (max-width:855px) {
+
+    .ExpendOption,
+    .navright {
+        display: none;
+    }
+    .navshow1{
+        display: block;
+    }
+
+    #click:checked~.menu-btn i:before {
+        content: "\f00d";
+    }
+
+    .mobileExpendOption.active {
+        display: block;
+        position: absolute;
+    }
+
+    .menu-btn {
+        top: 0;
+        display: block;
+    }
+}
+
+@media (max-width:550px) {
+    .menu-btn {
+        top: 0px;
+    }
+
+    .logo {
+        width: 45%;
+    }
+
+    .logoimg {
+        width: 100%;
+    }
+}

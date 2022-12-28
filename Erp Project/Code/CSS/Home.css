@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.perdetails,
+.iconlink,
+.homebox {
+    margin-top: 32px;
+    margin-bottom: 30px;
+}
+
+.perdetails {
+    width: 25%;
+    /* background-color: red; */
+}
+
+.iconlink {
+    background-color: #ffffff;
+    border-radius: 2px;
+    width: 8%;
+}
+
+.homebox {
+    display: flex;
+    width: 66%;
+    /* background-color: purple; */
+    /* border: 1px solid gray; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.homebox1 {
+    height: 250px;
+    width: 32.50%;
+    border: 0.5px solid rgb(203, 200, 200);
+    border-radius: 3px;
+}
+
+
+.AcademicIcon {
+    margin-top: 12px;
+    background-color: none;
+    text-align: center;
+    width: 100%;
+}
+.iconlink a {
+    color: black;
+    font-size: 14px;
+}
+a:focus{
+    background-color: olive;
+}
+.iconlink a:hover {
+    text-decoration: underline;
+}
+
+.imagepng {
+    height: 30px;
+}
+
+.underline {
+    margin: auto;
+    margin-top: 3px;
+    height: 2px;
+    background-color: green;
+}
+
+.col4,
+.col5,
+.col6,
+.col7,
+.col8,
+.col9 {
+    margin-top: -90px;
+}
+
+.boxheading {
+    border: 3px;
+    background-color: aliceblue;
+    border-bottom: 1px solid #6673bd;
+    color: #2e6e9e;
+}
+
+.mid {
+    padding: 10px;
+}
+
+.homename {
+    color: #1e81ce;
+    font-family: sans-serif;
+    font-weight: 550;
+    margin-top: 6px;
+}
+
+.homestuid {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(142, 210, 142);
+}
+
+.mid span {
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.homeimg {
+    margin-top: 8px;
+    text-align: center;
+}
+
+.text-right {
+    margin-left: 10px;
+    font-size: 11px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.text-right.dis {
+    visibility: hidden;
+}
+
+.id .email {
+    font-size: 13px;
+    color: #0000FF;
+}
+
+.homestuimage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.studentinformation {
+    margin-top: 20px;
+}
+
+.row1 {
+    width: 98%;
+    background-color: #dff0d8;
+    padding: 7px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+.row2 {
+    background-color: #f2dede;
+}
+
+.row3 {
+    background-color: #fcf8e3;
+}
+
+.row4 {
+    background-color: #e5e5e2;
+}
+
+.rowname {
+    padding: 8px;
+    width: 35%;
+    font-size: 11px;
+    font-weight: 550;
+    margin: auto;
+    text-align: right;
+    display: inline-block;
+}
+
+.rowvalue {
+    width: 63%;
+    font-size: 10px;
+    font-weight: 570;
+    padding: 8px;
+    color: #212121;
+    font-family: sans-serif;
+    display: inline-block;
+}
+.mar{
+    height: 1px;
+    width: 95%;
+    margin: auto;
+    background-color: rgb(219, 205, 205);
+}
+marquee{
+    color: rgb(225, 127, 127);
+    height: 80%;
+    z-index:-999999;
+}
+.thank{
+    margin-bottom: 20px;
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+.thank marquee{
+    color: red;
+}
+.disunderline{
+    margin: auto;
+    margin-top: 3px;
+    height: 2px;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:950px) {
+
+    .col3,
+    .col4,
+    .col5,
+    .col6,
+    .col7,
+    .col8,
+    .col9 {
+        margin-top: 10px;
+    }
+
+    .perdetails {
+        width: 32%;
+    }
+
+    .iconlink {
+        width: 13%;
+    }
+    .homebox {
+        width: 51%;
+    }
+
+    .homebox1 {
+        width: 49%;
+    }
+
+    .col9 {
+        display: none;
+    }
+}
+
+@media (max-width:750px) {
+
+    .col2,
+    .col3 {
+        margin-top: 12px;
+    }
+
+    .iconlink,
+    .homebox {
+        margin-top: -15px;
+    }
+
+    .homebox {
+        padding: 10px;
+    }
+
+    .col4,
+    .col5,
+    .col6,
+    .col7,
+    .col8,
+    .col9,
+    .col3 {
+        margin-top: 8px;
+    }
+
+    .col9 {
+        display: block;
+    }
+
+    .perdetails,
+    .iconlink,
+    .homebox,
+    .homebox1,
+    .row1 {
+        justify-content: center;
+        width: 100%;
+    }
+}

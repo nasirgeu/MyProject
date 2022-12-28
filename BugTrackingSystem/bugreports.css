@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: rgb(158, 175, 206);
+  background-position: center center;
+  background-color: rgb(224, 206, 190);
+  margin: auto;
+}
+.navigation {
+  width: 860px;
+  margin: 0px auto;
+}
+.navigation ul {
+  list-style: none;
+  margin-top: 2%;
+}
+.navigation ul li {
+  background-color: rgb(190, 179, 179);
+  width: 170px;
+  line-height: 40px;
+  border: 1px solid black;
+  /* display: inline-block; */
+  float: left;
+  text-align: center;
+  font-size: 14px;
+  position: relative;
+  font-family: big john;
+  cursor: pointer;
+}
+/* a{
+          text-decoration: none;
+          color: white;
+      } */
+.navigation ul li:hover {
+  background: crimson;
+  z-index: 1;
+}
+.navigation ul ul {
+  display: none;
+}
+.navigation ul li:hover > ul {
+  display: block;
+}
+.container {
+  background-color: white;
+  border: 2px solid black;
+  height: 40px;
+  position: relative;
+  top: 50px;
+  width: 854px;
+  margin: 0 auto;
+  margin-top: 60px;
+  border-radius: 4px;
+  margin-left: 203px;
+}
+.nava {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(10, 7, 7);
+}
+.records {
+  color: red;
+  position: relative;
+  top: 20px;
+  margin-right: 190px;
+  margin-left: 580px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 30px;
+}
+.hr {
+  margin-top: -50px;
+}
+th {
+  background-color: rgb(83, 75, 75);
+  margin-top: 0px;
+  color: white;
+  display: inline-block;
+  margin-left: 1px;
+  width: 124px;
+  height: 25px;
+  font-size: 20px;
+  text-align: center;
+}
+td {
+  background-color: rgb(197, 184, 184);
+  margin-top: 0px;
+  display: inline-block;
+  margin-left: 1px;
+  width: 124px;
+  height: 32px;
+  text-align: left;
+  font-size: 14px;
+}
+.SN {
+  width: 34px;
+  text-align: center;
+}
+.title {
+  width: 190px;
+}
+.home1 {
+  margin-top: 8px;
+  margin-left: 7px;
+}
+
+table {
+  border: 2px solid black;
+  position: absolute;
+  top: 127px;
+  left: 7px;
+}
+.project {
+  width: 270px;
+}
+.btn{
+  content: "\f044";
+  color: red;
+  margin: 10px;
+  font-size: 20px;
+}
