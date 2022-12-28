@@ -1,0 +1,80 @@
+body {
+    color: black;
+    background-image: url('GEU.jpg');
+    background-repeat: no-repeat;
+    border-image-width: auto;
+    background-size: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    ;
+}
+
+.container {
+    background: linear-gradient(rgb(185, 100, 100), rgb(214, 196, 196), rgb(143, 143, 84));
+    border: 3px solid black;
+    width: 25%;
+    height: 500px;
+    margin-left: 900px;
+    margin-right: 10px;
+    margin-top: 35px;
+    border-radius: 6px;
+}
+
+.admin_form {
+    margin: 20px 80px;
+    padding: auto;
+}
+
+#email {
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 4px;
+    margin: 4px;
+}
+
+#password {
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 4px;
+    margin: 4px;
+}
+
+#submit {
+    margin: 8px;
+    margin-left: 4px;
+    padding: 10px;
+    text-align: center;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+#submit:hover {
+    background-color: red;
+}
+
+.geu {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo {
+    margin-left: 45px;
+    margin-top: 50px;
+}
+
+.footer {
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 75px;
+}
+
+.hr {
+    margin-top: 10px;
+    color: black;
+}

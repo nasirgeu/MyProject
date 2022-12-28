@@ -1,0 +1,41 @@
+body {
+    background-image: url('background.jpg');
+}
+
+.box {
+    background-color: white;
+    width: 870px;
+    margin: auto;
+    border: 1px solid rgb(230, 223, 212);
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.name {
+    margin: 10px;
+    width: 400px;
+    height: 35px;
+    border: 1px solid rgb(230, 223, 212);
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.btn {
+    width: 165px;
+    height: 45px;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    border: 1px solid rgb(243, 232, 243);
+    background-color: rgb(128, 223, 128);
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background-color: rgb(231, 113, 113);
+    color: white;
+}

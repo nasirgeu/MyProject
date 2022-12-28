@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    background-color: rebeccapurple;
+    color: white;
+    height: 130px;
+}
+
+.top_text {
+    color: rgb(189, 166, 210);
+    position: relative;
+    top: 16px;
+    margin-left: 100px;
+    font-size: 35px;
+}
+
+.navbar {
+    background-color: black;
+    color: wheat;
+    height: 35px;
+}
+
+.navbarin {
+    background-color: black;
+    position: relative;
+    left: 180px;
+    height: 35px;
+    display: inline-block;
+}
+
+span:hover {
+    background-color: rgb(58, 63, 65);
+    height: 34px;
+}
+
+span {
+    /* background-color: red; */
+    position: relative;
+    color: black;
+    top: -1px;
+    color: white;
+    display: inline-block;
+    height: 33px;
+    width: 75px;
+    font-size: 14px;
+    margin: -3px;
+    justify-content: center;
+    /* border: 2px solid rgb(15, 27, 196); */
+    padding-left: 5px;
+}
+
+a {
+    margin: 10px;
+}
+
+.a {
+    position: relative;
+    top: 9px;
+    left: 6px;
+}
+
+.Semester {
+    width: 90px;
+}
+
+.Registration {
+    width: 130px;
+}
+
+.ManageStudents {
+    width: 150px;
+}
+
+.EnrollHistory {
+    width: 130px;
+}
+
+.contactus {
+    width: 100px;
+}
+
+.Department {
+    width: 120px;
+}

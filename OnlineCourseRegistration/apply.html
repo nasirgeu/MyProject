@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Index.css">
+    <link rel="stylesheet" href="apply.css">
+    <script src="https://kit.fontawesome.com/6a7c8c22ae.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="top">
+        <div class="top_text">
+            Online Course <br> Registration
+        </div>
+    </div>
+    <div class="navbar">
+        <div class="navbarin">
+            <a href="Course.html"> <span><div class="a" >HOME</div></span></a>
+            <a href="about.html"><span class="Semester"><div class="a">ABOUT US</div></span></a>
+            <a href="coursedetails.html"><span class="Department"><div class="a">ALL PROGRAMS</div></span></a>
+            <a href="contact.php"><span class="contactus"><div class="a">CONTACT US</div></span></a>
+            <a href="careersupport.html"><span class="Registration"><div class="a">CAREER SUPPORT</div></span></a>
+            <a href="studentdeatils.php"><span class="ManageStudents"><div class="a">STUDENTS DETAILS</div></span></a>
+            <a href="logout.php"> <span><div class="a">LOGOUT</div></span></a>
+        </div>
+    </div>
+
+    <form action="apply.php" method="post" class="box">
+        <input name="name" class="name" type="text" class="name" placeholder="Name" required>
+        <select name="gender" id="" class="name">
+            <option value="">Select Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+        <input name="mobilenumber" class="name" type="text" class="name" placeholder="Mobile Number" required>
+        <select name="occupation" name="" id="" class="name" required>
+            <option value="">Select Occupation</option>
+            <option value="Student">Student</option>
+            <option value="Teacher">Teacher</option>
+            <option value="Other">Other</option>
+        </select>
+        <input name="email" class="name" type="email" class="name" placeholder="Email Id" required>
+        <select name="branch" name="" id="" class="name" required>
+            <option value="">Select Branch</option>
+            <option value="CSE">Computer Science</option>
+            <option value="Civil">Civil</option>
+            <option value="Mechanical">Mechanical</option>
+        </select>
+        <input name="date" class="name" type="date" class="name" placeholder="Date Of Birth" required>
+        <select name="course" name="" id="" class="name" required>
+            <option value="">Select Course</option>
+            <option value="DataScience">Data Science</option>
+            <option value="AI">AI & Machine Learning</option>
+            <option value="Management">Management</option>
+            <option value="Cloud">Cloud Computing</option>
+            <option value="CyberSecurity">Cyber Security</option>
+            <option value="BootCamps">BootCamps</option>
+            <option value="Software Dev">Software Development</option>
+            <option value="Digital Marketing">Digital Marketing</option>
+        </select>
+        <input name="address" class="name" type="text" class="name" placeholder="Address" required>
+        <select name="feedback" name="" id="" class="name" required>
+            <option value="">Rating</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+        <input type="submit" class="btn" value="Submit">
+        <input type="reset" class="btn" value="Reset">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="newuser.css">
+    <script src="https://kit.fontawesome.com/6a7c8c22ae.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="useradd.php" method="post">
+        <div class="image"><img class="i" src="login.png" alt=""></div>
+        <div class="details">
+            <div class="login">
+                <div class="login1">Signup</div>
+            </div>
+            <div class="name"><input name="name" autocomplete="off" class="nameinput" type="text" placeholder="Name" required> </div>
+            <div class="name"><input name="email" autocomplete="off" class="nameinput" type="email" placeholder="Email" required> </div>
+            <div class="name"><input name="password" autocomplete="off" id="pass" class="nameinput" type="password" placeholder="Password" required> </div> <br>
+            <div class="eye"><i class="fa fa-eye" aria-hidden="true" id="eye" onclick="toggle()"></i></div>
+            <span class="new">Have an account?<a class="user" href="login.php"> LOG IN</a></span> <br>
+            <input class="btn" type="submit" value="Join Free">
+        </div>
+    </form>
+
+    <script>
+        var state = false;
+
+        function toggle() {
+            if (state) {
+                document.getElementById("pass").setAttribute("type", "password");
+                state = false;
+            } else {
+                document.getElementById("pass").setAttribute("type", "text");
+                state = true;
+            }
+        }
+    </script>
+
+</body>
+
+</html>

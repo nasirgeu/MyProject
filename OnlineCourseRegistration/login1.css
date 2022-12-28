@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-image-width: auto;
+    font-family: cursive;
+}
+
+img {
+    position: relative;
+    width: 100%;
+}
+
+form {
+    margin: auto;
+    width: 70%;
+    height: 353px;
+    position: relative;
+    background: rgb(118, 150, 118);
+    background: transparent;
+    top: 100px;
+}
+
+.i {
+    height: 349px;
+    border: 2px solid white;
+}
+
+.image {
+    display: inline-block;
+    margin-top: -1px;
+    width: 45%;
+    height: 350px;
+}
+
+.details {
+    background: white;
+    width: 55%;
+    position: relative;
+    top: -42px;
+    border: 2px solid red;
+    display: inline-block;
+    margin-left: -5px;
+    height: 349px;
+    border: 2px solid white;
+}
+
+.login {
+    background: white;
+    margin-top: 31px;
+}
+
+.login1 {
+    background: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.name {
+    background: white;
+}
+
+.nameinput {
+    background: white;
+    height: 40px;
+    border: 2px solid rgb(235, 212, 212);
+    border-radius: 5px;
+    width: 330px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.new {
+    background: white;
+    margin-top: 20px;
+    font-size: 19px;
+    margin-left: 33px;
+}
+
+.user {
+    background: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.user:hover {
+    color: red;
+}
+
+.btn {
+    background: white;
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid rgb(226, 139, 139);
+    border-radius: 3px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(127, 86, 231);
+}
+
+.btn:hover {
+    background-color: rgb(167, 117, 224);
+}
+
+.eye {
+    background: white;
+    display: inline-block;
+}
+
+#eye {
+    background: white;
+    position: relative;
+    top: 41px;
+    cursor: pointer;
+    left: 326px;
+    font-size: 22px;
+}
+
+#pass {
+    margin-top: 9px;
+}
